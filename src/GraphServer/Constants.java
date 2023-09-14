@@ -76,7 +76,7 @@ public class Constants
 	public static final int NAME_FADE_TIME = 1000;
 	public static final Font NAME_FONT = new Font("Sans", Font.PLAIN, 14);
 	
-	public static final int EXPLOSION_RADIUS = 12;
+	public static final int EXPLOSION_RADIUS = 30;
 	
 	public static final int FUNCTION_VELOCITY = 1500;	//steps per second
 	public static final int FUNC_FADE_TIME = 1000;
