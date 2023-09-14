@@ -43,7 +43,7 @@ public class Constants
 	
 	public static final int START_GAME_DELAY = 5000;
 	
-	public static final int TURN_TIME = 60000;
+	public static final int TURN_TIME = 120000;
 	
 	public static final int MAX_PLAYERS = 10;
 	public static final int MAX_SOLDIERS_PER_PLAYER = 4;
