@@ -111,7 +111,7 @@ public class Constants
 	public static final int RANDOM_FUNC_MEAN_CROSSOVER_LENGTH = 5;
 	public static final int RANDOM_FUNC_MEAN_MUTATION_LENGTH = 5;
 	
-	public static final String[] computerNames = {"Deep Thought", "HAL", "Skynet", "Agent Smith", "Multivac", "Deep Blue", "Cleverbot", "Alpha Zordon", "Wolfram"};
+	public static final String[] computerNames = {"Deep Thought", "HAL", "Skynet", "Agent Smith", "Multivac", "Deep Blue", "Cleverbot", "Alpha Zordon", "Wolfram", "GLaDOS", "Wheatley"};
 	public static final int COMPUTER_LEVEL_STANDARD_DEVIATION = 40;
 	public static final int COMPUTER_LEVEL_MEAN_VALUE = 50;
 	public static final int COMPUTER_LEVEL_MIN_VALUE = 10;
