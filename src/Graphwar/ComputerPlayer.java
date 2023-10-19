@@ -298,7 +298,7 @@ public class ComputerPlayer extends Player implements Runnable
 		double totalPoints = 0;
 		
 		generationLoop:
-		for(int k=0; processingFunction && graphwar.getGameData().getGameState()==Constants.GAME && ((k<numGenerations && (graphwar.getGameData().getRemainingTime()) > 5000) || (over9000)); k++)
+		for(int k=0; processingFunction && graphwar.getGameData().getGameState()==Constants.GAME && ((k<numGenerations && (graphwar.getGameData().getRemainingTime()) > 50000) || (over9000)); k++)
 		{
 			
 			if(graphwar.getGameData().getCurrentTurnPlayer() == this)
@@ -400,7 +400,7 @@ public class ComputerPlayer extends Player implements Runnable
 	    		
 	    		//System.out.print("|");
 	    		
-	    		if((graphwar.getGameData().getRemainingTime()) < 3000 && !over9000)
+	    		if((graphwar.getGameData().getRemainingTime()) < 30000 && !over9000)
 	    		{
 	    			functions = oldFunctions;
 	    			this.functions[this.currentTurnSoldier] = oldFunctions;
@@ -415,7 +415,7 @@ public class ComputerPlayer extends Player implements Runnable
 	    		    	
 	    	if(over9000)
 	    	{
-	    		if(myTurn && (graphwar.getGameData().getRemainingTime()) < 5000)
+	    		if(myTurn && (graphwar.getGameData().getRemainingTime()) < 50000)
 	    		{
 	    			bestFunction[this.currentTurnSoldier] =  functions[0];	    			
 	    			sendFunction();
